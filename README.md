@@ -1,4 +1,6 @@
 # Twitter Media Download
+![WebsiteBackground](/assets/desktop_bg.png)
+
 ### How to Use
 Place your Twitter access keys and tokens in the twitterRequest.php file. 
 ```php
