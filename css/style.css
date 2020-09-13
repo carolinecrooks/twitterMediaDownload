@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url('../res/desktop_bg.png');
+  background-image: url("../assets/desktop_bg.png");
   background-size: cover;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -50,13 +50,12 @@ body {
 
 input[name="tweetURL"] {
   font-family: "Marker Felt", "serif";
-  font-size: 130%;
+  font-size: 200%;
   text-indent: 10px;
 }
 
-
 #linkInput:valid {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 ::placeholder {
@@ -87,8 +86,8 @@ input:focus {
 }
 
 #submitButton {
-  height: 85%;
-  width: 42%;
+  height: 80%;
+  width: 40%;
   font-family: "Marker Felt", "serif";
   text-transform: uppercase;
   color: #837eb9;
@@ -101,136 +100,101 @@ input:focus {
   cursor: pointer;
 }
 
-a {
-  height: 100%;
-  width: 25%;
-  right: 14%;
-  background-image: url('../res/download.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  top: -8%;
-  position: absolute;
-  right: 0%;
-  display: none;
-}
-
-/*
-ipad config
-*/
-@media only screen and (max-width: 1100px) and (max-height: 1300px){
+@media only screen and (max-width: 1300px) and (max-height: 1300px) {
   body {
-    background-image: url('../res/ipad_bg.PNG');
+    background-image: url("../assets/desktop_bg.PNG");
+    background-size: 100% 100vw;
   }
 
   #content {
-      width: 98%;
+    width: 98%;
   }
 
   #titleDiv {
-      margin-top: 25%;
-      font-size: 175%;
-      width: 85%;
-      margin-left: auto;
-      margin-right: auto;
+    margin-top: 16%;
+    font-size: 100%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   input[name="tweetURL"] {
-      font-size: 400%;
+    font-size: 200%;
   }
 
   #formID {
-      margin-top: 18%;
+    margin-top: 5%;
   }
 
   #linkInput {
-      width: 85%;
-      height: 25%;
+    width: 60%;
+    height: 28%;
   }
 
   input[name="tweetURL"] {
     text-align: center;
   }
 
-  #retrieve {
-    margin-top: 4%;
-    height: 38%;
-    width: 100%;
-  }
-
   #submitButton {
-     font-size: 400%;
-     text-indent: 0px;
-     padding: 0;
-      width: 35%;
-      height: 70%;
-  }
-
-  a {
-    height: 80%;
-    width: 15%;
-    right: 14%;
-    background-size: contain;
-    top: -5%;
+    width: 35%;
   }
 }
 
-/*
-iphone config
-*/
-@media only screen and (max-width: 1000px) and (max-height: 1500px){
-    body {
-        background-image: url('../res/iphone_bg.PNG');
-        position: fixed;
-    }
+@media only screen and (max-width: 900px) and (max-height: 1500px) {
+  body {
+    background-image: url("../assets/desktop_bg.PNG");
+  }
 
-    #content {
-        width: 98%;
-    }
+  #titleDiv {
+    font-size: 90%;
+  }
 
-    #titleDiv {
-        margin-top: 24%;
-        font-size: 175%;
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  #formID {
+    margin-top: 10%;
+  }
 
-    input[name="tweetURL"] {
-        font-size: 400%;
-    }
+  #submitButton {
+    width: 40%;
+  }
+}
 
-    #formID {
-        margin-top: 18%;
-    }
+@media only screen and (max-width: 650px) and (max-height: 1500px) {
+  body {
+    background-image: url("../assets/iphone_bg.PNG");
+    background-size: cover;
+  }
 
-    #linkInput {
-        width: 85%;
-        height: 25%;
-    }
+  #content {
+    width: 98%;
+  }
 
-    input[name="tweetURL"] {
-      text-align: center;
-    }
+  #titleDiv {
+    margin-top: 25%;
+    font-size: 90%;
+  }
 
-    #retrieve {
-      margin-top: 4%;
-      height: 38%;
-      width: 100%;
-    }
+  #formID {
+    margin-top: 20%;
+  }
 
-    #submitButton {
-       font-size: 400%;
-       text-indent: 0px;
-       padding: 0;
-        width: 35%;
-        height: 70%;
-    }
+  input[name="tweetURL"] {
+    font-size: 200%;
+    text-indent: 10px;
+  }
 
-    a {
-      height: 80%;
-      width: 20%;
-      right: 9%;
-      background-size: contain;
-      top: -5%;
-    }
+  ::placeholder {
+    color: #4b6dc5;
+  }
+
+  #linkInput {
+    width: 75%;
+  }
+
+  #retrieve {
+    margin-top: 5%;
+  }
+
+  #submitButton {
+    width: 60%;
+  }
 }
