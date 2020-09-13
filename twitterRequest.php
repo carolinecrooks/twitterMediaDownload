@@ -4,10 +4,14 @@
   //connect to twitter
   require("vendor/autoload.php");
   use Abraham\TwitterOAuth\TwitterOAuth;
-  define ('CONSUMER_KEY', 'KokOVScxygQ5IQNsTxQU2qw4Z');
-  define('CONSUMER_SECRET', 'T8ONXHLNWtndPNZRl4alDGwE5AtL32mD2L9Pfm3WJR4djmZvvy');
-  $access_token = '1195590715193135105-TMvE3xL0VoGZniJoVX8uefZdjBPeXU';
-  $access_token_secret = 'oG32XzUx2mYTvIJTlpNHZoGtpNWbEJFBX4KCzeNly0PMf';
+
+
+  define ('CONSUMER_KEY', '');
+  define('CONSUMER_SECRET', '');
+  $access_token = '';
+  $access_token_secret = '';
+
+  
   $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, $access_token, $access_token_secret);
   $content = $connection->get("account/verify_credentials");
   $statuses = $connection->get("statuses/show", ["id" => $tweetID]);
