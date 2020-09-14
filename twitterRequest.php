@@ -6,12 +6,12 @@
   use Abraham\TwitterOAuth\TwitterOAuth;
 
 
-  define ('CONSUMER_KEY', '');
-  define('CONSUMER_SECRET', '');
-  $access_token = '';
-  $access_token_secret = '';
+  define ('CONSUMER_KEY', 'KokOVScxygQ5IQNsTxQU2qw4Z');
+  define('CONSUMER_SECRET', 'T8ONXHLNWtndPNZRl4alDGwE5AtL32mD2L9Pfm3WJR4djmZvvy');
+  $access_token = '1195590715193135105-1AucMwcOkcBUUtVBucnbpJ3UZ11DbL';
+  $access_token_secret = '5KCYsChSkkK1RUmi2ngSQRgQX2XzXgYqD82vZw0r59fW7';
 
-  
+
   $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, $access_token, $access_token_secret);
   $content = $connection->get("account/verify_credentials");
   $statuses = $connection->get("statuses/show", ["id" => $tweetID]);

@@ -4,7 +4,8 @@
 }
 
 body {
-  background-image: url("../assets/desktop_bg.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("../assets/endless_UltraHD.png");
   background-size: 100vw 100vh;
   display: block;
   overflow: hidden;
@@ -102,11 +103,6 @@ input:focus {
 }
 
 @media only screen and (max-width: 1300px) and (max-height: 1300px) {
-  body {
-    background-image: url("../assets/desktop_bg.PNG");
-    background-size: 100vw 100vh;
-  }
-
   #content {
     width: 98%;
   }
@@ -142,10 +138,6 @@ input:focus {
 }
 
 @media only screen and (max-width: 900px) and (max-height: 1500px) {
-  body {
-    background-image: url("../assets/desktop_bg.PNG");
-  }
-
   #titleDiv {
     font-size: 90%;
   }
@@ -160,11 +152,6 @@ input:focus {
 }
 
 @media only screen and (max-width: 650px) and (max-height: 1500px) {
-  body {
-    background-image: url("../assets/iphone_bg.PNG");
-    background-size: cover;
-  }
-
   #content {
     width: 98%;
   }

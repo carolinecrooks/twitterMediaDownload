@@ -1,5 +1,5 @@
 # Twitter Media Download
-![WebsiteBackground](/assets/websiteHomepage.png)
+![WebsiteBackground](/assets/twitterMediaDownloadHome.png)
 
 ### How to Use
 Place your Twitter access keys and tokens in the twitterRequest.php file. 
@@ -10,5 +10,7 @@ Place your Twitter access keys and tokens in the twitterRequest.php file.
   $access_token_secret = '';
 ```
 
+## Demo 
+![SiteDemo](/assets/twitterMediaDownloadDemo.gif)
 ### Open Source Libraries 
 * [twitteroauth](https://github.com/abraham/twitteroauth)

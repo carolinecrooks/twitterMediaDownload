@@ -11,6 +11,7 @@ submit.addEventListener("click", function (e) {
   e.preventDefault();
   tweetURL = inputBar.value;
   inputBar.value = ""; //clear input bar text
+  console.log("hi");
   if (tweetURL.includes("twitter") && tweetURL.includes("status")) {
     //check if a valid twitter link
     tweetID = getID(tweetURL);
