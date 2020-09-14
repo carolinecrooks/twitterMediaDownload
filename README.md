@@ -10,7 +10,7 @@ Place your Twitter access keys and tokens in the twitterRequest.php file.
   $access_token_secret = '';
 ```
 
-## Demo 
+### Demo 
 ![SiteDemo](/assets/twitterMediaDownloadDemo.gif)
 ### Open Source Libraries 
 * [twitteroauth](https://github.com/abraham/twitteroauth)
