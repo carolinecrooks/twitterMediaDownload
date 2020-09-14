@@ -1,4 +1,3 @@
-# Twitter Media Download
 ![WebsiteBackground](/assets/twitterMediaDownloadHome.png)
 
 ## How to Use
