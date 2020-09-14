@@ -12,8 +12,9 @@ Place your Twitter access keys and tokens in the twitterRequest.php file.
 ## Demo 
 ![SiteDemo](/assets/twitterMediaDownloadDemo.gif)
 
-## Open Source Libraries 
+## Sources
+### Open Source Libraries 
 * [twitteroauth](https://github.com/abraham/twitteroauth)
 
-## Art Credit
+### Art Credit
 * ["endless" by Alena Aenami](https://www.artstation.com/marketplace/p/5nmv/wallpaper-pack-01-15-artworks-in-4k) purchased with Standard Use License
